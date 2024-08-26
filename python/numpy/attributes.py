@@ -2,28 +2,28 @@
 import numpy as np
 
 #Create An Array using 'numpy'
-ary = np.array([1,2,3,4,5])
+arr = np.array([1,2,3,4,5])
 
 #Print the Array
-print(ary)
+print("The Array is : ",arr)
 
 #Print the type of the Array
-print(type(ary))
+print("Type of Array: ",type(arr))
 
 #Print the dimension of the Array
-print(ary.ndim)
+print("Dimension of the Array is : ",arr.ndim)
 
 #Print the shape of the Array
-print(ary.shape)
+print("The shape of the Array is : ",arr.shape)
 
 #Print the data type of the Array
-print(ary.dtype)
+print("Data type of the Array is : ",arr.dtype)
 
 #Print the size of the Array
-print(ary.size)
+print("Size of The Array is : ",arr.size)
 
 #Print the itemsize of the Array
-print(ary.itemsize)
+print("Size of Array element : ",arr.size)
 
 #Print the total size of the Array
-print(ary.nbytes)
+print("Array Space in Bytes : ",arr.nbytes)
