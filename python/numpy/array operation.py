@@ -31,11 +31,19 @@ print("Multiply 1st Array with value 5: ",mul_5)
 
 #Division of two Arrays.
 div_arr = arr / arr
-print("1st Array divided by 1st Array",div_arr) 
+print("1st Array divided by 1st Array",div_arr)
 
 #Sum of all element in Array.
 sum_value = arr.sum()
-print("Sum of All values in A Array: ",sum_value)
+print("Sum of All values in A Array(1st-Array): ",sum_value)
+
+#Mean of all element in Array.
+mean_value = arr.mean()
+print("Mean of All values in A Array(1st-Array): ",mean_value)
+
+#Product of all element in Array.
+product_value = arr.prod()
+print("Product of All values in A Array(1st-Array): ",product_value)
 
 #Maimum valu of a array
 max_value = arr.max()
@@ -51,8 +59,8 @@ print("This is a 2-D Array: \n",arr_2d)
 
 #Sum over the axis of rows
 row_arr = arr_2d.sum(axis = 0)
-print("Sum over the row axis",row_arr)
+print("Sum over the row axis(2-D Array)",row_arr)
 
 #Sum over the axis of columns with
 colm_arr = arr_2d.sum(axis = 1)
-print("Sum over the column axis",colm_arr)
+print("Sum over the column axis(2-D Array)",colm_arr)
