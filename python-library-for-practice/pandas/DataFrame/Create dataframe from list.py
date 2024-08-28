@@ -3,7 +3,7 @@
 import pandas as pd
 
 #Create a list and print it.
-my_list = [1,2,3,4,5]
+my_list = ['apple','watermelon','orange','cat','dog']
 print("The list is : ",my_list)
 
 #Create a Data-Frame from the list and print it.
