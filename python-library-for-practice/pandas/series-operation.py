@@ -29,3 +29,10 @@ print("The series is :\n",my_series)
 my_dict = {'a':'Apple','b':'Ball','c':'Cat','d':'Dog','e':'Egg'}
 my_series = pd.Series(my_dict)
 print("The series is :\n",my_series)
+
+#Numpy Array to series
+import numpy as np
+my_array = np.array([1,2,3,4,5])
+my_series = pd.Series(my_array)
+print("The series is :\n",my_series)
+
