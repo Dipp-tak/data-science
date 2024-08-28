@@ -2,5 +2,5 @@
 import pandas as pd
 
 #Create DataFrame
-df = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [6, 7, 8, 9, 10]})
+df = pd.DataFrame({'First Name': ['Doraemon','','Shinchan','Hattori','Kiteretsu'], 'Email': ['doraemon.cartoon@gmail.com','','shinchan.cartoon@gmail.com','hattori.cartoon@gmail.com','kiteretsu.cartoon@gmail.com']})
 df
